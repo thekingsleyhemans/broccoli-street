@@ -2,7 +2,7 @@
     {
       "id": 1,
       "title": "Our Land, Our Heritage 1",
-      "price": "$45.89",
+      "price": "₵500",
       "artist": "Papa Tee",
       "image": "/assets/photos/artworks/Our-Land-1.jpg",
       "learnMoreLink": "/product-details.html?id=1",
@@ -12,7 +12,7 @@
     {
       "id": 2,
       "title": "Our Land, Our Heritage 2",
-      "price": "$60.00",
+      "price": "₵600",
       "artist": "Papa Tee",
       "image": "/assets/photos/artworks/Our-Land-2.jpg",
       "learnMoreLink": "/product-details.html?id=2",
