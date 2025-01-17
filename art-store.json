@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "title": "Our Land, Our Heritage 1",
+      "price": "$45.89",
+      "artist": "Papa Tee",
+      "image": "/assets/photos/artworks/Our-Land-1.jpg",
+      "learnMoreLink": "/product-details.html?id=1",
+      "paymentLink": "https://payment.com/art1",
+      "description": "A captivating artwork showcasing the deep connection to heritage and the land."
+    },
+    {
+      "id": 2,
+      "title": "Our Land, Our Heritage 2",
+      "price": "$60.00",
+      "artist": "Papa Tee",
+      "image": "/assets/photos/artworks/Our-Land-2.jpg",
+      "learnMoreLink": "/product-details.html?id=2",
+      "paymentLink": "https://payment.com/art2",
+      "description": "A surreal depiction of dreamlike portrait filled with vibrant colors."
+    }
+  ]
+  

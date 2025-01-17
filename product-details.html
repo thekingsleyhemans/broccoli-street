@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png"  href="/assets/photos/favicon.png">
+    <title>Art Details</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="mobile-overlay">
+      <div class="mobile-over-wrap">
+        <div class="menu-close">
+          <p>CLOSE</p>
+        </div>
+        <div class="spacer"></div>
+        <div class="menu-links">
+          <a href="index.html">SHOP</a>
+          <a href="#">ABOUT</a>
+          <a href="#">SUBMIT</a>
+          <a href="#" id="comingSoon">EXHIBITIONS</a>
+          <a href="#" id="comingSoon">DISOVER ARTISTS</a>
+        </div>
+      </div>
+    </div>
+    <div class="nav-wrap">
+      <nav>
+        <div class="nav-container">
+          <div class="nav-right">
+            <div class="nav-link-wrapp">
+              <div class="nav-link-container">
+                <a href="index.html">SHOP</a>
+                <a href="index.html">SHOP</a>
+              </div>
+            </div>
+            <div class="nav-link-wrapp">
+              <div class="nav-link-container">
+                <a href="#">ABOUT</a>
+                <a href="#">ABOUT</a>
+              </div>
+            </div>
+            <div class="nav-link-wrapp">
+              <div class="nav-link-container">
+                <a href="#" id="comingSoon">EXHIBITIONS</a>
+                <a href="#" id="comingSoon">EXHIBITIONS</a>
+              </div>
+            </div>
+          </div>
+          <div class="nav-mid">
+            <img src="/assets/photos/broccoli-logo 1.svg" alt="" />
+          </div>
+          <div class="nav-left">
+            <div class="nav-link-wrapp">
+              <div class="nav-link-container">
+                <a href="#" id="comingSoon">DISCOVER ARTISTS</a>
+                <a href="#" id="comingSoon">DISCOVER ARTISTS</a>
+              </div>
+            </div>
+            <div class="nav-link-wrapp">
+              <div class="nav-link-container">
+                <a href="#">SUBMIT</a>
+                <a href="#">SUBMIT</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mobile-nav">
+          <div class="mob-nav-right">
+            <div class="mob-logo-img">
+              <img src="assets/photos/broccoli-logo 1.svg" alt="" />
+            </div>
+          </div>
+          <div class="mob-nav-left">
+            <div class="menu-button-open">
+              <p>MENU</p>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <section class="details-page">
+      <div class="container">
+        <div class="details-container">
+          <div id="art-details">
+            <!-- Details will be dynamically populated here -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="footer-content-wrap">
+          <p>Broccoli Street Art @2025</p>
+          <p>
+            Having Issues?
+            <a href="mailto:broccolistreet@gmail.com">Report a Problem</a>
+          </p>
+          <div class="socials">
+            <a href="">Instagram</a>
+            <a href="">Instagram</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      const openNav = document.querySelector(".menu-button-open");
+      const closeNav = document.querySelector(".menu-close");
+      const overlay = document.querySelector(".mobile-overlay");
+
+      // Adding transition to the overlay
+      if (overlay) {
+        overlay.style.transition = "transform 0.3s ease-in-out";
+      }
+
+      // Disabling body from scrolling on open
+      function disableScrolling() {
+        document.body.style.overflow = "hidden";
+      }
+
+      // Enabling scrolling afterwards
+      function enableScrolling() {
+        document.body.style.overflow = "auto";
+      }
+
+      // Ensure elements exist before adding event listeners
+      if (openNav && closeNav && overlay) {
+        openNav.addEventListener("click", () => {
+          overlay.style.transform = "translateY(0vh)";
+          disableScrolling();
+        });
+
+        closeNav.addEventListener("click", () => {
+          overlay.style.transform = "translateY(-100vh)";
+          enableScrolling();
+        });
+      } else {
+        console.error("One or more required elements are missing.");
+      }
+    </script>
+    <script src="details.js"></script>
+    <!-- Ensure this is at the bottom -->
+  </body>
+</html>
