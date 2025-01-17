@@ -6,7 +6,7 @@
       "artist": "Papa Tee",
       "image": "/assets/photos/artworks/Our-Land-1.jpg",
       "learnMoreLink": "/product-details.html?id=1",
-      "paymentLink": "https://payment.com/art1",
+      "paymentLink": "https://paystack.com/buy/our-land--our-heritage-1---by-papa-tee-tskhxs",
       "description": "A captivating artwork showcasing the deep connection to heritage and the land."
     },
     {
@@ -16,7 +16,7 @@
       "artist": "Papa Tee",
       "image": "/assets/photos/artworks/Our-Land-2.jpg",
       "learnMoreLink": "/product-details.html?id=2",
-      "paymentLink": "https://payment.com/art2",
+      "paymentLink": "https://paystack.com/buy/our-land--our-heritage-2---by-papa-tee-kdyeyb",
       "description": "A surreal depiction of dreamlike portrait filled with vibrant colors."
     }
   ]
